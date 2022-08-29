@@ -1,0 +1,204 @@
+body {
+    margin: 0px;
+    background-color: #ffffff;
+    background-image: url("https://www.transparenttextures.com/patterns/concrete-wall-3.png");
+}
+
+.homepage-wrapper {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: hidden;
+}
+
+.navigation-wrapper {
+    width: 100%;
+    max-width: 1366px;
+}
+
+header {
+    width: 100%;
+    height: 650px;
+    background: rgba(0, 0, 0, 0.6) url("../images/background/6qy2w7.jpg");
+    background-blend-mode: darken;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 30px;
+}
+
+.header-info-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 30px;
+    margin-bottom: 50px;
+}
+
+.header-about-wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-left-bar {
+    display: flex;
+    margin-left: 30px;
+}
+
+.hero-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.photo-hero {
+    border: 1px solid white;
+}
+
+.photo-hero img{
+    width: 270px;
+    height: 100%;
+    margin-bottom: -2px;
+}
+
+.social-media-icons {
+    display: flex;
+    flex-direction: column;
+}
+
+.social-media-icons i {
+    margin-bottom: 30px;
+    color: white;
+    font-size: 50px;
+    transition: 0.5s;
+}
+
+.instagram {
+    margin: -3px 0;
+}
+
+.instagram i:hover {
+    color: #e1306c;
+}
+
+.facebook i:hover {
+    color: #3b5998;
+}
+
+.contact-wrapper {
+    margin-top: 20px;
+    font-size: 25px;
+    width: 350px;
+    position: relative;
+    left: 40px;
+}
+
+.contact-wrapper i {
+    margin-right: 15px;
+}
+
+.phone {
+    margin-bottom: 15px;
+}
+
+.mail {
+    margin-top: 15px;
+}
+
+.header-right-bar {
+    font-size: 40px;
+    margin-right: 30px;
+    margin-left: 60px;   
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+    bottom: 100px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+    transition: 0.5s ease-in-out;
+}
+
+.services {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100px;
+}
+
+.services a:hover {
+    letter-spacing: 1px;
+}
+
+.education {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100px;
+}
+
+.education a:hover {
+    letter-spacing: 1px;
+}
+
+/* mid-page /////////////////////////////////////////////////////////////////////////////////////
+/////////////////////////////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////////////////////////*/
+
+
+.container-wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.content-wrapper {
+    width: 100%;
+    max-width: 1200px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 30px;
+}
+
+.title-of-galery {
+    font-size: 40px;
+    color: rgb(187, 4, 4);
+    font-weight: bolder;
+    margin-bottom: 30px;
+}
+
+.galery {
+    width: 100%;
+    height: 1000px;
+    display: flex;
+    justify-content: space-evenly;
+    height: 100%;
+}
+
+.images-box {
+    width: 32%;
+    display: flex;
+    flex-direction: column;
+}
+
+.images-box img{
+    width: 100%;
+    margin-bottom: 10px;
+}
