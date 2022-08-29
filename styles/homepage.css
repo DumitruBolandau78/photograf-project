@@ -202,3 +202,58 @@ header {
     width: 100%;
     margin-bottom: 10px;
 }
+
+/* footer /////////////////////////////////////////////////////////////////////////////////////
+/////////////////////////////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////////////////////////*/
+
+footer {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #11122b;
+    color: white;
+    padding: 30px 0 10px 0;
+}
+
+.links-wrapper {
+    margin-top: 20px;
+    width: 30%;
+    display: flex;
+    justify-content: center;
+}
+
+.nav-links {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    align-items: center;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    transition: 0.5s;
+}
+
+.footer-home i{
+    font-size: 25px;
+    color: white;
+    transition: 0.5s;
+}
+
+.footer-home i:hover {
+    color: #cea135;
+}
+
+.footer-services a:hover {
+    color: #cea135;
+}
+
+.footer-education a:hover {
+    color: #cea135;
+}
