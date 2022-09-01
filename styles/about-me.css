@@ -1,0 +1,143 @@
+body {
+    margin: 0px;
+    background-color: #ffffff;
+    background-image: url("https://www.transparenttextures.com/patterns/concrete-wall-3.png");
+}
+
+.about-me-wrappper {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: hidden;
+}
+
+.box-wrapper {
+    width: 100%;
+    max-width: 1366px;
+}
+
+.background-image {
+    background-image: url('../images/background/CwrrP_pXgAASjF5.webp');
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 300px;
+}
+
+.header-menu {
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+    width: 100%;
+    background-color: #11122b;
+}
+
+.header-menu a {
+    text-decoration: none;
+    color: white;
+}
+
+.menu {
+    display: flex;
+    width: 40%;
+    justify-content: space-between;
+    margin: 30px 0;
+}
+
+.services {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100px;
+}
+
+.services a {
+    transition: 0.5s;
+}
+
+.services a:hover {
+    letter-spacing: 1px;
+}
+
+.home {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 145px;
+}
+
+.home a {
+    transition: 0.5s;
+}
+
+.home a:hover {
+    letter-spacing: 1px;
+}
+
+/* mid-page /////////////////////////////////////////////////////////////////////////////////////
+/////////////////////////////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////////////////////////*/
+
+.container-about-me-wrapper {
+    width: 100%;
+    max-width: 1366px;
+    display: flex;
+    justify-content: center;
+    font-family: 'Ubuntu Mono', monospace;
+}
+
+.container-inner {
+    width: 100%;
+    max-width: 1200px;
+    background-color: white;
+}
+
+.about-hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title-hero {
+    margin-top: 30px;
+}
+
+.info-about-hero {
+    width: 70%;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+}
+
+.colaboration {
+    margin-top: 80px;
+}
+
+.title-of-colaboration {
+    display: flex;
+    justify-content: center;
+}
+
+h1 {
+    color: rgb(51, 51, 51);
+}
+
+.logos-of-colaborations {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.logo-image {
+    width: 18%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    left: 25px;
+}
+
+.logo-image img {
+    width: 100%;
+}
