@@ -1,0 +1,121 @@
+body {
+    margin: 0px;
+    background-color: #ffffff;
+    background-image: url("https://www.transparenttextures.com/patterns/concrete-wall-3.png");
+}
+
+.services-wrapper {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: hidden;
+}
+
+.services-navigation-wrapper {
+    width: 100%;
+    max-width: 1366px;
+}
+
+.header-menu {
+    display: flex;
+    justify-content: center;
+    font-size: 22px;
+    width: 100%;
+    background-color: #11122b;
+}
+
+.header-menu a {
+    text-decoration: none;
+    color: white;
+}
+
+.menu {
+    display: flex;
+    width: 40%;
+    justify-content: space-between;
+    margin: 20px 0;
+}
+
+.about-me {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-left: 20px;
+}
+
+.about-me a {
+    transition: 0.5s;
+    display: flex;
+    justify-content: center;
+    width: 145px;
+}
+
+.about-me a:hover {
+    letter-spacing: 1px;
+}
+
+.home {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-right: 20px;
+    width: 145px;
+}
+
+.home a {
+    transition: 0.5s;
+    display: flex;
+    justify-content: center;
+    width: 70px;
+}
+
+.home a:hover {
+    letter-spacing: 1px;
+}
+
+
+/* mid-page /////////////////////////////////////////////////////////////////////////////////////
+/////////////////////////////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////////////////////////*/
+
+.container-for-services {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.content-for-services {
+    width: 100%;
+    max-width: 1200px;
+    background-color: white;
+    height: 600px;
+}
+
+.info-about-services {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 80px;
+}
+
+.text-about-services {
+    width: 60%;
+}
+
+.image-about-photo-device {
+    width: 30%;
+}
+
+.image-device {
+    width: 70%;
+}
+
+.image-device img {
+    width: 100%;
+}
+
+.title-of-device {
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: bold;
+}
