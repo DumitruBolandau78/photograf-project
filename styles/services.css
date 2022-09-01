@@ -83,13 +83,13 @@ body {
     width: 100%;
     display: flex;
     justify-content: center;
+    color: rgb(51, 51, 51);
 }
 
 .content-for-services {
     width: 100%;
     max-width: 1200px;
     background-color: white;
-    height: 600px;
 }
 
 .info-about-services {
@@ -104,6 +104,10 @@ body {
 
 .image-about-photo-device {
     width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
 }
 
 .image-device {
@@ -118,4 +122,30 @@ body {
     margin-top: 20px;
     font-size: 20px;
     font-weight: bold;
+}
+
+fieldset {
+    margin-bottom: 40px;
+}
+
+legend {
+    font-size: 27px;
+    font-weight: bold;
+}
+
+li {
+    font-size: 24px;
+    line-height: 40px;
+}
+
+.about-images-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 25px;
+    margin-bottom: 30px;
+}
+
+.apps {
+    margin-bottom: 10px;
 }
