@@ -1,0 +1,60 @@
+@media (max-width: 600px) {
+    .menu {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .home {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        margin-bottom: 10px;
+    }
+
+    .services {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .nav-links {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .footer-about-me {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .footer-services {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        margin-top: 10px;
+    }
+
+    footer {
+        padding: 0px;
+        text-align: center;
+    }
+
+    .logos-of-colaborations {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        position: relative;
+        right: 23px;
+    }
+
+    .logo-image {
+        width: 40%;
+    }
+    
+    .title-of-colaboration {
+        margin-bottom: 30px;
+    }
+
+
+} 

@@ -122,6 +122,7 @@ body {
     margin-top: 20px;
     font-size: 20px;
     font-weight: bold;
+    text-align: center;
 }
 
 fieldset {
@@ -144,6 +145,7 @@ li {
     align-items: center;
     font-size: 25px;
     margin-bottom: 30px;
+    text-align: center;
 }
 
 .apps {
