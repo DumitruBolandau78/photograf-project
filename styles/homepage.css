@@ -136,7 +136,7 @@ header {
     display: flex;
     align-items: center;
     flex-direction: column;
-    width: 100px;
+    width: 145px;
 }
 
 .services a:hover {
@@ -155,7 +155,8 @@ header {
 }
 
 .quote {
-    font-size: 40px;
+    font-size: clamp(16px, 4vw, 40px);
+    text-align: center;
 }
 
 /* mid-page /////////////////////////////////////////////////////////////////////////////////////

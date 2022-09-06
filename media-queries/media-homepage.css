@@ -1,30 +1,154 @@
-@media (max-width: 615px) {
-    .menu {
+@media (max-width: 817px) {
+
+    .header-about-wrapper {
         display: flex;
         flex-direction: column;
+        align-items: center;
+        width: 100%;
     }
 
-    .home {
-        width: 100%;
+    .header-left-bar {
+        width: 60%;
         display: flex;
         justify-content: center;
-        margin-bottom: 10px;
+        margin-bottom: 40px;
+    }
+
+    .photo-hero img {
+        width: 100%;
+    }
+
+    .social-media {
+        margin-left: 20px;
+    }
+
+    .social-media i{
+        font-size: 70px;
+    }
+
+    .instagram {
+        margin-bottom: 20px;
+    }
+
+    .header-right-bar {
+        width: 100%;
+        max-width: 817px;
+        margin: 0;
+        height: 100%;
     }
 
     .about-me {
         width: 100%;
+    }
+
+    .menu {
+        margin: 0;
+        position: static;
+    }
+
+    .services {
+        width: 100%;
+    }
+
+    .quote {
+        font-size: 30px;
+        margin: 0 0 40px 0;
+    }
+
+    .contact-wrapper {
+        position: static;
+        width: 100%;
         display: flex;
+        flex-direction: column;
         justify-content: center;
+    }
+
+    .phone {
+        width: 100%;
+        text-align: center;
+    }
+
+    .mail {
+        text-align: center;
+        width: 100%;
+    }
+}
+
+
+@media (max-width: 615px) {
+    .header-info-wrapper {
+        text-align: center;
+        font-size: 20px;
+    }
+
+    .header-title {
+        margin-bottom: 10px;
+    }
+
+    .header-left-bar {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
         margin: 0;
     }
 
+    .social-media {
+        margin-left: 0;
+    }
 
+    .social-media {
+        width: 100%;
+        margin-top: 20px;
+    }
 
+    .social-media-icons {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
 
+    .social-media-icons i{
+        font-size: 30px;
+    }
 
+    .phone {
+        width: 100%;
+        text-align: center;
+    }
 
+    .mail {
+        text-align: center;
+        width: 100%;
+    }
 
+    .contact-wrapper {
+        font-size: 16px;
+    }
 
+    .quote {
+        font-size: 20px;
+    }
+
+    .menu {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .about-me {
+        margin-bottom: 10px;
+    }
+
+    .photo-hero {
+        margin: 0 30px;
+    }
+
+    .photo-hero img{
+        width: 100%;
+        max-width: 250px;
+    }
 
 
 
@@ -73,5 +197,4 @@
         padding: 15px 0 0 0;
         text-align: center;
     }
-
 }

@@ -57,4 +57,19 @@
         margin: 0 0 20px 0;
     }
 
+    li {
+        font-size: 20px;
+    }
+
+    legend {
+        font-size: 25px;
+    }
+
+    .about-images-wrapper {
+        font-size: 20px;
+    }
+
+    .title-of-device { 
+        font-size: 18px;
+    }
 }

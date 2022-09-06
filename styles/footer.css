@@ -34,6 +34,7 @@ footer {
     font-size: 25px;
     color: white;
     transition: 0.5s;
+    margin-top: 10px;
 }
 
 .footer-home i:hover {
