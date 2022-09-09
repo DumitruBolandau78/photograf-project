@@ -140,4 +140,9 @@ h1 {
 
 .logo-image img {
     width: 100%;
+    transition: 0.3s;
+}
+
+.logo-image img:hover {
+    transform: scale(1.1);
 }
